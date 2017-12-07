@@ -23,11 +23,32 @@ img {
   height: auto;
 }
 
-.img-frame {
+.img-slider {
+  position: relative;
   border: 4px solid #CEC6AC;
   padding: 4px 4px 2px 4px;
   background-color: #fefefe;
 }
+
+.slide {
+  display: none;
+}
+
+.arrow {
+  color: #fefefe;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+}
+
+#left-arrow {
+  left: 0;
+}
+
+#right-arrow {
+  right: 0;
+}
+
 
 .bio-pic {
   max-width: 150px;

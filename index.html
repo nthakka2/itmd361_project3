@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <title>About Me</title>
   <link rel="stylesheet" type="text/css" href="normalize.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Barlow:400,700" rel="stylesheet"> 
-  <title>About Me</title>
-</head>
+  </head>
 <body>
 <header>
   <nav>
@@ -19,8 +19,22 @@
   </header>
 <div class="container">
   <div class="column left">
-    <div class="img-frame">
-      <img src="image2.jpg" title="Picture of Neil's Family" alt="picture of neil's family">
+    <div class="img-slider">
+      
+      <div class="slide">
+        <img src="neilAndPal.jpg" title="picture of neil and palak" alt="picture of neil and palak">
+      </div>
+      
+      <div class="slide">
+        <img src="neilOnBike.jpg" title="picture of neil" alt="picture of neil">
+      </div>
+      
+      <div class="slide">
+        <img src="torreyPinesGolfCourse.jpg" title="picture of neil at torrey" alt="picture of neil at torrey">
+      </div>
+      
+      <a class="arrow" id="left-arrow"><</a>
+      <a class="arrow" id="right-arrow">></a>
     </div>
   </div>
   <div class="column right">
@@ -39,5 +53,6 @@
     <li>linkedin.com/in/neilthakkar</li>
   </ul>
 </footer>
+<script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>
