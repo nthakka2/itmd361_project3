@@ -30,26 +30,6 @@ img {
   background-color: #fefefe;
 }
 
-.slide {
-  display: none;
-}
-
-.arrow {
-  color: #fefefe;
-  font-size: 50px;
-  position: absolute;
-  top: 50%;
-}
-
-#left-arrow {
-  left: 0;
-}
-
-#right-arrow {
-  right: 0;
-}
-
-
 .bio-pic {
   max-width: 150px;
   height: auto;
